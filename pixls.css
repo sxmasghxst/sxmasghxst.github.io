@@ -1,0 +1,23 @@
+@font-face {
+    font-family: pixl;
+    src: url(flix/small_pixel-7.ttf);
+}
+
+body {
+    background-color: #04001f;
+    color: #ffffff;
+    text-align: center;
+    font-family: pixl;
+    font-size: 21px;
+}
+
+img {
+    position: relative;
+    top: 130px;
+
+}
+
+input {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
