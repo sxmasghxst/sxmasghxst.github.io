@@ -3,6 +3,23 @@
     src: url(flix/small_pixel-7.ttf);
 }
 
+@media screen and (max-width: 400px) {
+    div {
+        font-size: 15px;
+        text-align: center;
+        position: static;
+        margin-top: 100px;
+        
+    }
+
+    img {
+        width: 300px;
+        height: 200px;
+        position: relative;
+        margin-bottom: 30px;
+    }
+}
+
 body {
     background-color: #04001f;
     color: #ffffff;
@@ -13,8 +30,7 @@ body {
 
 img {
     position: relative;
-    top: 130px;
-
+    top: 120px;
 }
 
 input {
