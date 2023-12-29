@@ -34,7 +34,9 @@
         margin-bottom: 30px;
     }
 }
-
+a {
+    color: white;
+}
 body {
     background-color: #04001f;
     color: #ffffff;
