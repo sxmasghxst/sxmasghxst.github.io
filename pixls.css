@@ -11,6 +11,7 @@
 body {
     background: url("flix/webbby bg.png");
     background-size: cover;
+    background-repeat: no-repeat;
     color: #ffffff;
     position: relative;
     font-size: 21px;
@@ -48,6 +49,14 @@ div {
 }
 
 @media screen and (max-width: 500px) {
+    body {
+        background: url("flix/webbby bg.png");
+        background-size: 410%;
+        background-repeat: no-repeat;
+        color: #ffffff;
+        position: relative;
+    }
+
     div {
         left: 11.6%;
         margin-top: 97%;
@@ -78,6 +87,14 @@ div {
 }
 
 @media screen and (max-width: 400px) {
+    body {
+        background: url("flix/webbby bg.png");
+        background-size: 410%;
+        background-repeat: no-repeat;
+        color: #ffffff;
+        position: relative;
+    }
+    
     div {
         left: 11.6%;
         margin-top: 105%;
