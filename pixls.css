@@ -50,9 +50,7 @@ div {
 
 @media screen and (max-width: 500px) {
     body {
-        background: url("flix/webbby bg.png");
-        background-size: 410%;
-        background-repeat: no-repeat;
+        background-color: #545e6b;
         color: #ffffff;
         position: relative;
     }
@@ -88,13 +86,11 @@ div {
 
 @media screen and (max-width: 400px) {
     body {
-        background: url("flix/webbby bg.png");
-        background-size: 410%;
-        background-repeat: no-repeat;
+        background-color: #545e6b;
         color: #ffffff;
         position: relative;
     }
-    
+
     div {
         left: 11.6%;
         margin-top: 105%;
