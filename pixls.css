@@ -9,7 +9,8 @@
 }
 
 body {
-    background-image: url("flix/webbby bg.png");
+    background: url("flix/webbby bg.png");
+    background-size: cover;
     color: #ffffff;
     position: relative;
     font-size: 21px;
@@ -42,14 +43,14 @@ div {
 #imag {
     position: absolute;
     rotate: -11deg;
-    margin-left: 80px;
-    margin-top: 20px
+    margin-left: 230px;
+    margin-top: 80px;
 }
 
 @media screen and (max-width: 500px) {
     div {
         left: 11.5%;
-        margin-top: 120%;
+        margin-top: 105%;
         text-align: center;
         position: absolute;
         font-size: 15px;
@@ -62,7 +63,7 @@ div {
         width: 250px;
         height: 55px;
         margin-left: 80px;
-        margin-top: 420px;
+        margin-top: 360px;
     }    
 
     #imag {
@@ -70,7 +71,7 @@ div {
         position: absolute;
         rotate: -11deg;
         margin-left: 95px;
-        margin-top: 140px;
+        margin-top: 8ch;
         width: 200px;
         height: 290px;
     }
