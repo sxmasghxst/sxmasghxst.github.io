@@ -39,6 +39,7 @@ body {
 .headie {
     display: flex;
     justify-content: center;
+    padding-top: 1.3rem;
 }
 
 .gridder {
