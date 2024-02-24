@@ -14,21 +14,21 @@
 }
 
 a {
-    color: white;
+    color: #e2e7f2;
 }
 
 body {
     background-color: #000329;
-    color: #ffffff;
+    color: #e2e7f2;
     font-size: 17px;
     font-weight: bold;
     line-height: 1.65rem;
 }
 
 #txt {
-    min-width: 33%;
+    min-width: 20%;
+    max-width: 90%;
     min-height: 10%;
-    max
 }
 
 .wrappi {
@@ -61,12 +61,12 @@ h2 {
 .roulette {
     display: flex;
     justify-content: center;
-    align-items: center;
     padding-top: 21vh;
     padding-bottom: 21vh;
     border: solid;
     border-width: 1.5px;
     border-radius: 13rem 7rem;
+    border-color: #e2e7f2;
     
 }
 
@@ -81,8 +81,6 @@ h2 {
 
 @media only screen and (min-width: 768px) {
     body {
-        background-color: #000329;
-        color: #ffffff;
         font-size: 20px;
         font-weight: bold;
     }
